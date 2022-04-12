@@ -1,0 +1,181 @@
+body {
+    color: #212121;
+    background-color: #ffffff;
+    font-family: Roboto, sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.logo,
+.site-nav .link:hover,
+.adress-nav:hover,
+.site-nav .link:focus,
+.adress-nav:focus,
+.footer-link:hover,
+.footer-link:focus,
+.footer-location:hover,
+.footer-location:focus {
+    color: #2196F3;
+}
+
+.logo-name,
+.link {
+    color: #212121;
+}
+
+.logo-name-footer,
+.decisions,
+.footer-location,
+.decisions-button,
+.button:hover {
+    color: #ffffff;
+}
+
+.adress-nav,
+.text {
+    color: #757575;
+}
+
+.footer-link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer,
+.decisions {
+    background-color: #2F303A;
+}
+
+.team,
+.button {
+    background-color: #F5F4FA;
+}
+
+.decisions-button,
+.list .button:hover {
+    background-color: #2196F3;
+}
+
+.decisions-title,
+.decisions-button,
+.list-title {
+letter-spacing: 0.06em;
+}
+
+.logo,
+.footer,
+.text,
+.advantages-text-title,
+.work-title,
+.team-title,
+.team-player,
+.button {
+letter-spacing: 0.03em;
+}
+
+.site-nav .list,
+.adress-nav {
+letter-spacing: 0.02em;
+}
+
+.site-nav .list,
+.adress-nav {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.15;
+}
+
+.footer-location,
+.footer-link {
+font-size: 14px;
+line-height: 1.7;
+text-decoration: none;
+font-style: normal;
+}
+
+.decisions-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36; 
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.decisions-button {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+.advantages-text-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+    text-transform: uppercase;
+}
+
+.advantages-text-title .text {
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.work-title,
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+.team-player {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    text-align: center;
+}
+
+.team-title-list .text {
+    font-size: 16px;
+    line-height: 1.19;   
+    text-align: center;
+}
+
+.button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+}
+
+.list-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.portfolio-title-list .text {
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+.logo,
+.link,
+.adress-nav {
+text-decoration: none;
+}
+
+.decisions-button,
+.button {
+    cursor: pointer;
+}
