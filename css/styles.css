@@ -28,7 +28,8 @@ body {
 }
 
 .logo-name,
-.link {
+.link,
+.list-title {
     color: #212121;
 }
 
@@ -46,6 +47,11 @@ body {
 .button:hover {
     color: #ffffff;
 }
+
+.decisions-button:hover {
+    background-color: #188CE8;
+}
+
 
 .adress-nav,
 .text {
@@ -108,6 +114,11 @@ text-decoration: none;
 font-style: normal;
 }
 
+.portfolio-title-list {
+    text-decoration: none;
+    font-style: normal;
+}
+
 .decisions-title {
     font-weight: 900;
     font-size: 44px;
@@ -132,7 +143,7 @@ text-align: center;
     text-transform: uppercase;
 }
 
-.advantages-text-title .text {
+.advantages .text {
     font-size: 14px;
     line-height: 1.7;
 }
@@ -146,15 +157,15 @@ text-align: center;
 }
 
 .team-player {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
     text-align: center;
 }
 
 .team-title-list .text {
     font-size: 16px;
-    line-height: 1.19;   
+    line-height: 1.17;   
     text-align: center;
 }
 
@@ -190,3 +201,8 @@ text-decoration: none;
 .active {
     color:#2196F3;
 }
+
+
+.portfolio-link {
+text-decoration: none;
+font-style: normal}
